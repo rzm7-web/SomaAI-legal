@@ -1,212 +1,281 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Terms of Use — Soma AI</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+/* ============================================
+   Legal Site — Base Stylesheet
+   Clean, professional, responsive, no framework
+   ============================================ */
 
-  <header class="site-header">
-    <div class="container">
-      <a href="index.html" class="brand">Soma AI</a>
-    </div>
-  </header>
+:root {
+  --color-bg: #FAFAFA;
+  --color-surface: #FFFFFF;
+  --color-border: #E5E5E5;
+  --color-text: #1A1A1A;
+  --color-text-secondary: #555555;
+  --color-text-tertiary: #888888;
+  --color-accent: #4F46E5;
+  --color-accent-hover: #4338CA;
+  --max-width: 760px;
+  --radius: 12px;
+}
 
-  <main class="container page legal-page">
-    <a href="index.html" class="back-link">← Back</a>
+* {
+  box-sizing: border-box;
+}
 
-    <h1>Terms of Use</h1>
-    <p class="last-updated">Last updated: July 24, 2026</p>
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
-    <p>
-      These Terms of Use ("Terms") govern your access to and use of the
-      Soma AI mobile application (the "App"), provided by Nathan Deleau and Mateo Goury
-      ("we", "us", or "our"). By downloading, accessing, or using the App, you
-      agree to be bound by these Terms. If you do not agree to these Terms,
-      please do not use the App.
-    </p>
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+               Helvetica, Arial, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.65;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
 
-    <h2>1. Acceptance of Terms</h2>
-    <p>
-      By creating an account, downloading, or otherwise using the App, you
-      confirm that you have read, understood, and agree to be bound by these
-      Terms and our Privacy Policy. You must be at least 13 years old (or the
-      applicable minimum age of digital consent in your jurisdiction) to use the
-      App. If you are using the App on behalf of a minor, you represent that you
-      have the legal authority to do so.
-    </p>
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
 
-    <h2>2. Use of the App</h2>
-    <p>
-      We grant you a limited, non-exclusive, non-transferable, revocable license
-      to use the App for your personal, non-commercial use, subject to these
-      Terms. You agree not to:
-    </p>
-    <ul>
-      <li>Use the App for any unlawful purpose or in violation of any applicable
-        law or regulation;</li>
-      <li>Reverse engineer, decompile, disassemble, or attempt to derive the
-        source code of the App;</li>
-      <li>Copy, modify, distribute, sell, or lease any part of the App without
-        our prior written consent;</li>
-      <li>Interfere with or disrupt the integrity or performance of the App or
-        its underlying infrastructure;</li>
-      <li>Attempt to gain unauthorized access to the App, other users' accounts,
-        or related systems;</li>
-      <li>Use any automated means, including bots or scrapers, to access or
-        interact with the App.</li>
-    </ul>
+/* ---------- Header ---------- */
 
-    <h2>3. User Responsibilities</h2>
-    <p>
-      You are responsible for maintaining the confidentiality of your account
-      credentials and for all activities that occur under your account. You
-      agree to provide accurate and complete information when creating your
-      account and to update it as necessary. You are solely responsible for any
-      content you upload, including photos and personal data, and you represent
-      that you have all necessary rights to submit such content.
-    </p>
-    <p>
-      The App may provide fitness, nutrition, and body-composition related
-      information and recommendations generated through automated or
-      AI-assisted analysis. This information is provided for general
-      informational and motivational purposes only and does not constitute
-      medical advice. You should consult a qualified healthcare professional
-      before beginning any exercise, nutrition, or training program, especially
-      if you have any pre-existing medical condition. Your use of any
-      recommendation provided by the App is at your own risk.
-    </p>
+.site-header {
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-surface);
+  padding: 20px 0;
+}
 
-    <h2>4. Intellectual Property</h2>
-    <p>
-      The App, including its design, graphics, logos, text, software, and all
-      other content (excluding content you submit), is owned by Nathan Deleau and Mateo Goury
-      or their licensors and is protected by copyright, trademark, and other
-      intellectual property laws. Nothing in these Terms grants you any right,
-      title, or interest in the App or its content, other than the limited
-      license expressly set forth herein.
-    </p>
+.brand {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-text);
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
 
-    <h2>5. Purchases and Subscriptions</h2>
-    <p>
-      The App offers optional auto-renewing subscriptions ("Subscriptions")
-      that unlock premium features, currently available as Weekly, Monthly, and
-      Yearly plans. Subscriptions are processed and billed directly through the
-      Apple App Store (and, where applicable, the Google Play Store), in
-      accordance with Apple's and Google's own payment terms.
-    </p>
-    <p>By purchasing a Subscription, you acknowledge and agree that:</p>
-    <ul>
-      <li>
-        Payment will be charged to your App Store (or Google Play) account at
-        confirmation of purchase;
-      </li>
-      <li>
-        Subscriptions automatically renew for the same duration and price
-        unless auto-renewal is turned off at least 24 hours before the end of
-        the current billing period;
-      </li>
-      <li>
-        Your account will be charged for renewal within 24 hours prior to the
-        end of the current period, at the price you agreed to at purchase or
-        as otherwise communicated to you in advance of any price change;
-      </li>
-      <li>
-        You can manage or cancel your Subscription at any time through your
-        device's account settings (iPhone Settings → [Your Name] → Subscriptions,
-        or the equivalent Google Play settings). The App may also provide a
-        shortcut to this page from within Settings;
-      </li>
-      <li>
-        Deleting your account within the App does not automatically cancel an
-        active Subscription. You must cancel your Subscription separately
-        through your App Store or Google Play account settings to avoid future
-        charges;
-      </li>
-      <li>
-        Refunds, where applicable, are handled directly by Apple or Google in
-        accordance with their respective refund policies; we do not process
-        payments or issue refunds directly.
-      </li>
-    </ul>
-    <p>
-      We reserve the right to change Subscription pricing, features included in
-      each plan, or to introduce new plans at any time. Any such changes will
-      not affect a Subscription period you have already paid for.
-    </p>
+/* ---------- Page layout ---------- */
 
-    <h2>6. Limitation of Liability</h2>
-    <p>
-      To the maximum extent permitted by applicable law, Nathan Deleau and Mateo Goury and
-      their affiliates, officers, employees, and agents shall not be liable for
-      any indirect, incidental, special, consequential, or punitive damages,
-      including but not limited to loss of profits, data, use, goodwill, or
-      other intangible losses, resulting from your access to or use of, or
-      inability to access or use, the App.
-    </p>
-    <p>
-      The App is provided on an "as is" and "as available" basis without
-      warranties of any kind, whether express or implied, including but not
-      limited to warranties of merchantability, fitness for a particular
-      purpose, and non-infringement. We do not warrant that the App will be
-      uninterrupted, error-free, or completely secure.
-    </p>
+.page {
+  padding: 56px 24px 80px;
+}
 
-    <h2>7. Termination</h2>
-    <p>
-      We may suspend or terminate your access to the App at any time, with or
-      without notice, for conduct that we believe violates these Terms or is
-      otherwise harmful to other users, us, or third parties, or for any other
-      reason at our sole discretion. You may stop using the App and delete your
-      account at any time by contacting us at
-      <a href="mailto:physiqai@gmail.com">physiqai@gmail.com</a>. Upon termination,
-      your right to use the App will immediately cease.
-    </p>
+.hero {
+  text-align: center;
+  margin-bottom: 48px;
+}
 
-    <h2>8. Governing Law</h2>
-    <p>
-      These Terms shall be governed by and construed in accordance with the laws
-      of France, without regard to its conflict of law
-      principles. Any disputes arising out of or relating to these Terms or the
-      App shall be subject to the exclusive jurisdiction of the competent courts
-      located in France, unless otherwise required by
-      applicable law.
-    </p>
+.hero h1 {
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0 0 12px;
+}
 
-    <h2>9. Changes to the Terms</h2>
-    <p>
-      We may modify these Terms at any time. We will notify you of any material
-      changes by updating the "Last updated" date at the top of this page and,
-      where appropriate, through notice within the App. Your continued use of
-      the App after any changes constitutes your acceptance of the revised
-      Terms. If you do not agree to the revised Terms, you must stop using the
-      App.
-    </p>
+.subtitle {
+  font-size: 16px;
+  color: var(--color-text-secondary);
+  max-width: 480px;
+  margin: 0 auto;
+}
 
-    <h2>10. Contact Information</h2>
-    <p>
-      If you have any questions about these Terms, please contact us at:
-    </p>
-    <p>
-      <strong>Nathan Deleau and Mateo Goury</strong><br>
-      Email: <a href="mailto:physiqai@gmail.com">physiqai@gmail.com</a><br>
-      Website: <a href="https://rzm7-web.github.io/physiqai-legal/">https://rzm7-web.github.io/physiqai-legal/</a>
-    </p>
+/* ---------- Card grid (index page) ---------- */
 
-  </main>
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 56px;
+}
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; <span id="year">2026</span> Nathan Deleau and Mateo Goury. All rights reserved.</p>
-      <p class="footer-links">
-        <a href="privacy-policy.html">Privacy Policy</a>
-        <span class="sep">·</span>
-        <a href="terms-of-use.html">Terms of Use</a>
-      </p>
-    </div>
-  </footer>
+.doc-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 24px;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
 
-</body>
-</html>
+.doc-card:hover {
+  border-color: var(--color-accent);
+  transform: translateY(-2px);
+}
+
+.doc-card-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-tertiary);
+  margin-bottom: 10px;
+}
+
+.doc-card h2 {
+  font-size: 19px;
+  margin: 0 0 8px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.doc-card p {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  margin: 0 0 16px;
+  flex-grow: 1;
+}
+
+.doc-card-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+/* ---------- Contact block ---------- */
+
+.contact-block {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 28px;
+  text-align: center;
+}
+
+.contact-block h2 {
+  font-size: 18px;
+  margin: 0 0 8px;
+}
+
+.contact-block p {
+  margin: 0;
+  color: var(--color-text-secondary);
+  font-size: 15px;
+}
+
+/* ---------- Legal document pages ---------- */
+
+.legal-page {
+  max-width: 720px;
+}
+
+.back-link {
+  display: inline-block;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  margin-bottom: 28px;
+}
+
+.back-link:hover {
+  color: var(--color-accent);
+}
+
+.legal-page h1 {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0 0 8px;
+}
+
+.last-updated {
+  font-size: 13px;
+  color: var(--color-text-tertiary);
+  margin: 0 0 32px;
+}
+
+.legal-page h2 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 40px 0 14px;
+  padding-top: 8px;
+}
+
+.legal-page p {
+  color: var(--color-text-secondary);
+  margin: 0 0 16px;
+  font-size: 15.5px;
+}
+
+.legal-page ul {
+  margin: 0 0 16px;
+  padding-left: 22px;
+}
+
+.legal-page li {
+  color: var(--color-text-secondary);
+  font-size: 15.5px;
+  margin-bottom: 8px;
+}
+
+.legal-page strong {
+  color: var(--color-text);
+}
+
+.legal-page a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.legal-page a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  border-top: 1px solid var(--color-border);
+  padding: 28px 0;
+  text-align: center;
+}
+
+.site-footer p {
+  font-size: 13px;
+  color: var(--color-text-tertiary);
+  margin: 0 0 8px;
+}
+
+.footer-links a {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.footer-links a:hover {
+  color: var(--color-accent);
+}
+
+.footer-links .sep {
+  margin: 0 8px;
+  color: var(--color-border);
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 640px) {
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .legal-page h1 {
+    font-size: 26px;
+  }
+
+  .legal-page h2 {
+    font-size: 18px;
+  }
+
+  .page {
+    padding: 40px 20px 64px;
+  }
+}
