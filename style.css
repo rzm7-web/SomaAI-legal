@@ -227,6 +227,40 @@ body {
   text-decoration: underline;
 }
 
+.lang-nav {
+  margin: 0 0 28px;
+  font-size: 14px;
+}
+
+.lang-nav a {
+  font-weight: 600;
+}
+
+.lang-nav .sep {
+  margin: 0 8px;
+  color: var(--color-border);
+}
+
+.legal-page section + section {
+  margin-top: 56px;
+  padding-top: 48px;
+  border-top: 1px solid var(--color-border);
+}
+
+.legal-page h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 24px 0 10px;
+  color: var(--color-text);
+}
+
+.legal-page code {
+  font-size: 14px;
+  background: #f3f4f6;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
 /* ---------- Footer ---------- */
 
 .site-footer {
