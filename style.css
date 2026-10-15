@@ -261,6 +261,31 @@ body {
   border-radius: 4px;
 }
 
+.legal-page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 20px;
+  font-size: 14px;
+}
+
+.legal-page th,
+.legal-page td {
+  border: 1px solid var(--color-border);
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.legal-page th {
+  background: #f9fafb;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.legal-page td {
+  color: var(--color-text-secondary);
+}
+
 /* ---------- Footer ---------- */
 
 .site-footer {
